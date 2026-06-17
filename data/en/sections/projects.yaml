@@ -1,0 +1,56 @@
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+
+buttons:
+- name: All
+  filter: "all"
+- name: Enterprise
+  filter: "enterprise"
+- name: Government
+  filter: "government"
+- name: Web
+  filter: "web"
+
+projects:
+- name: Config Engine
+  role: Tech Lead
+  timeline: "2016 - 2019"
+  url: ""
+  summary: >
+    A large-scale ICT transition platform built for SA Health to manage the move from the
+    old to the new Royal Adelaide Hospital. The system tracked thousands of physical assets,
+    managed staff transitions and software profiles, coordinated scheduling across departments,
+    and generated floor plan visualisations. Built on Skyve with extensive custom modules.
+  tags: ["enterprise", "government"]
+
+- name: SA Power Networks — Citizen Portals
+  role: Developer
+  timeline: "2019 - 2021"
+  url: ""
+  summary: >
+    A suite of citizen-facing web applications for SA Power Networks, including Power @ My
+    Place (residential energy supply information), Report a Street Light Out (fault reporting),
+    and an online forms platform for customer service workflows.
+  tags: ["enterprise", "government"]
+
+- name: Fotura
+  role: Founder & Developer
+  timeline: "2020 - Present"
+  url: "https://fotura.com.au"
+  summary: >
+    Web and design studio helping small businesses build their online presence. Full-service
+    offering from strategy and design through to development and hosting.
+  tags: ["web"]
+
+- name: Two Hungry Italians
+  role: Developer
+  timeline: "2022"
+  url: "https://twohungryitalians.com"
+  summary: >
+    Website for Two Hungry Italians, an Adelaide food experience brand. Custom-built to
+    showcase their story, events, and offerings.
+  tags: ["web"]

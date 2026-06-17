@@ -1,0 +1,14 @@
+name: "Ben Petito"
+nickname: "Ben"
+greeting: "Hi, I'm"
+image: "images/author/ben.png"
+
+contactInfo:
+  github: benpetito
+  linkedin: ben-petito-629031144
+
+summary:
+  - Solutions Architect & Tech Lead at Biz Hub Australia
+  - Legacy modernisation & enterprise integrations
+  - Practical AI adoption in real-world environments
+  - Based in Adelaide, Australia

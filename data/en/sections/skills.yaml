@@ -1,0 +1,43 @@
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+
+skills:
+- name: Solution Architecture
+  summary: Designing systems that balance business requirements with long-term maintainability, particularly in complex regulated environments.
+
+- name: Java
+  summary: Primary language for enterprise application development across fifteen years of production systems.
+
+- name: JavaScript
+  summary: Frontend and full-stack web development, including modern frameworks and browser-based tooling.
+
+- name: SQL & Relational Databases
+  summary: Database design, query optimisation, and data modelling across enterprise applications.
+
+- name: Microsoft Azure
+  summary: Cloud infrastructure, Azure Functions, service integrations, and data sovereignty considerations for government workloads.
+
+- name: Web Services & Integrations
+  summary: Designing and building observable, supportable integrations between legacy and modern systems.
+
+- name: Application Security
+  summary: Secure-by-design approaches for enterprise applications in government and regulated environments.
+
+- name: Software Development
+  summary: Full software delivery lifecycle from requirements through to deployment and ongoing support.
+
+- name: Business Analysis
+  summary: Requirements gathering, workshop facilitation, and translating business processes into system specifications.
+
+- name: Agile Methodologies
+  summary: Scrum, iterative delivery, and pragmatic application of agile practices in enterprise project contexts.
+
+- name: Test Driven Development
+  summary: Unit, integration, and regression testing practices that support long-term maintainability.
+
+- name: Continuous Integration
+  summary: CI/CD pipelines, automated builds, and deployment practices for reliable software delivery.

@@ -1,0 +1,49 @@
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+designation: Solutions Architect & Tech Lead
+company:
+  name: Biz Hub Australia
+  url: "https://bizhub.com.au"
+
+summary: >
+  I work with organisations that are trying to modernise legacy systems and apply AI in ways
+  that are actually useful in real-world environments.
+
+
+  The hardest part usually isn't the technology itself. It's dealing with years of accumulated
+  complexity, unclear ownership, brittle integrations, and systems that no longer fit the way
+  the business operates. Most of my work involves helping teams untangle that.
+
+
+  I've worked across government and private sector projects where security, compliance,
+  reliability, and long-term maintainability genuinely matter — environments that force
+  practical decision-making. You rarely have the luxury of starting from scratch or chasing
+  perfect architecture, so much of the work comes down to making sensible tradeoffs and
+  designing systems that can evolve without becoming fragile.
+
+
+  I'm particularly interested in legacy modernisation, enterprise integrations, and practical
+  AI adoption: replacing ageing systems, building integrations that are observable and
+  supportable, and applying AI where it removes repetitive work or improves decision-making —
+  rather than just looking impressive in a demo.
+
+
+
+socialLinks:
+- name: GitHub
+  icon: "fab fa-github"
+  url: "https://github.com/benpetito"
+
+- name: X / Twitter
+  icon: "fab fa-x-twitter"
+  url: "https://twitter.com/benpetito"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/ben-petito-629031144/"

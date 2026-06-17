@@ -1,0 +1,10 @@
+copyright: "© Ben Petito"
+
+description: Personal site and blog of Ben Petito — developer and founder of Fotura.
+
+openGraph:
+  title: Ben Petito
+  type: website
+  description: Personal site and blog of Ben Petito — developer and founder of Fotura.
+  image: images/author/ben.jpg
+  url: https://benpetito.github.io

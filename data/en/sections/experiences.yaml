@@ -1,0 +1,77 @@
+section:
+  name: Experience
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+experiences:
+- company:
+    name: Biz Hub Australia
+    url: "https://bizhub.com.au"
+    location: Adelaide, Australia
+    overview: >
+      Biz Hub Australia builds enterprise software shaped around real business processes,
+      taking on projects that are considered too messy, too constrained, or too risky for
+      conventional approaches.
+  positions:
+  - designation: Solutions Architect
+    start: Sep 2024
+    responsibilities:
+    - Lead solution architecture across enterprise software projects in government and private sector
+    - Define integration strategies for legacy modernisation and AI adoption initiatives
+    - Guide teams through technically complex, compliance-sensitive environments
+  - designation: Senior Software Developer
+    start: Dec 2016
+    end: Aug 2024
+    responsibilities:
+    - Tech lead on bespoke enterprise applications for SA Health, SA Power Networks, and other major clients
+    - Designed and delivered complex integrations between legacy and modern systems
+    - Built the Config Engine — a large-scale ICT transition platform used to manage the move to the new Royal Adelaide Hospital
+
+- company:
+    name: SMS Management & Technology
+    url: ""
+    location: Adelaide, Australia
+    overview: >
+      ICT consulting firm delivering technology strategy and implementation services across
+      government and enterprise clients.
+  positions:
+  - designation: Senior Consultant
+    start: Jan 2015
+    end: Dec 2016
+    responsibilities:
+    - Developed solution architecture for two public-facing citizen reporting systems for SA Police
+    - Produced architecture documentation and reference architectures for enterprise clients
+  - designation: Consultant
+    start: Feb 2011
+    end: Dec 2012
+    responsibilities:
+    - Delivered ICT consulting engagements across government and private sector clients
+    - Contributed to architecture reviews and technology assessments
+
+- company:
+    name: Fotura
+    url: "https://fotura.com.au"
+    location: Adelaide, Australia
+    overview: >
+      Web and design studio for small businesses.
+  positions:
+  - designation: Director
+    start: Dec 2012
+    end: Dec 2014
+    responsibilities:
+    - Co-founded Fotura, providing web design and photography services to small and medium businesses in Adelaide
+
+- company:
+    name: Environment Protection Authority South Australia
+    url: "https://www.epa.sa.gov.au"
+    location: Adelaide, Australia
+    overview: >
+      SA EPA is the state's primary environmental regulator.
+  positions:
+  - designation: Senior Analyst/Programmer
+    start: Aug 2009
+    end: Feb 2011
+    responsibilities:
+    - Developed and maintained enterprise applications for environmental regulation and reporting
