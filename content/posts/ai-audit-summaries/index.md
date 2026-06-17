@@ -2,6 +2,7 @@
 title: "Using AI to Surface Insights From Two Decades of Audit History"
 date: 2025-05-13T09:00:00+09:30
 description: A proof of concept using local LLMs to generate useful audit summaries from nearly twenty years of structured data.
+hero: ai-audit-summaries.png
 menu:
   sidebar:
     name: AI Audit Summaries

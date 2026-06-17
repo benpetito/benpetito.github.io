@@ -2,6 +2,7 @@
 title: "APIs Don't Fail Loudly Enough"
 date: 2026-04-10T09:00:00+10:30
 description: Silent data loss in enterprise integrations — and why "mostly working" isn't good enough in regulated environments.
+hero: apis-fail.png
 menu:
   sidebar:
     name: APIs Don't Fail Loudly Enough
