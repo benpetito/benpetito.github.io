@@ -40,7 +40,7 @@ projects:
 - name: Fotura
   role: Founder & Developer
   timeline: "2020 - Present"
-  url: "https://fotura.com.au"
+  url: ""
   summary: >
     Web and design studio helping small businesses build their online presence. Full-service
     offering from strategy and design through to development and hosting.
@@ -49,7 +49,7 @@ projects:
 - name: Two Hungry Italians
   role: Developer
   timeline: "2022"
-  url: "https://twohungryitalians.com"
+  url: ""
   summary: >
     Website for Two Hungry Italians, an Adelaide food experience brand. Custom-built to
     showcase their story, events, and offerings.

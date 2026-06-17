@@ -2,6 +2,7 @@
 title: "My First Public Talk — What Actually Stuck With Me"
 date: 2026-06-12T09:00:00+10:30
 description: I gave my first public talk at the Adelaide Azure User Group. Then I spent four days proving my own point.
+hero: my-first-talk.png
 menu:
   sidebar:
     name: My First Public Talk

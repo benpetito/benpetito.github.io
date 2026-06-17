@@ -2,6 +2,7 @@
 title: "Can a 2-Digit MFA Code Really Be More Secure Than 6?"
 date: 2026-04-15T09:00:00+10:30
 description: Microsoft moved to a 2-digit MFA prompt. That sounds like a downgrade — but the mechanism behind it is very different.
+hero: mfa-digits.png
 menu:
   sidebar:
     name: 2-Digit MFA vs 6
