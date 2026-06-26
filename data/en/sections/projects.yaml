@@ -14,43 +14,215 @@ buttons:
   filter: "government"
 - name: Web
   filter: "web"
+- name: Mobile
+  filter: "mobile"
 
 projects:
-- name: Config Engine
-  role: Tech Lead
-  timeline: "2016 - 2019"
+- name: IQMS — Winston
+  image: images/sections/projects/iqms.png
+  role: Developer
+  timeline: "2021-2023"
   url: ""
   summary: >
-    A large-scale ICT transition platform built for SA Health to manage the move from the
-    old to the new Royal Adelaide Hospital. The system tracked thousands of physical assets,
-    managed staff transitions and software profiles, coordinated scheduling across departments,
-    and generated floor plan visualisations. Built on Skyve with extensive custom modules.
+    An ISO certification management platform for IQMS Australasia. Organisations register
+    and subscribe to the system to work towards ISO certification guided by IQMS consultants.
+    The platform supports distinct roles for system administrators, customer consultants, and
+    business development managers — each with tailored access to templates, customer progress,
+    communications, and payment information.
+  tags: ["enterprise"]
+
+- name: Implant Billing
+  image: images/sections/projects/implant-billing.png
+  role: Developer
+  timeline: "2018 - "
+  url: ""
+  summary: >
+    A surgical prosthesis billing system for SA Health, ensuring the Royal Adelaide and
+    Queen Elizabeth hospitals correctly recover the costs of implants and consumables from
+    insurers. The system replaced a paper-based process that was not migrated when the new
+    RAH opened — importing data from the corporate financial system, facilitating structured
+    data entry of paper surgery records, and exporting billing data directly into Sunrise EMR
+    for invoicing.
   tags: ["enterprise", "government"]
 
-- name: SA Power Networks — Citizen Portals
+- name: PIRSA — Food Safety Auditing
+  image: images/sections/projects/pirsa-food-safety.png
   role: Developer
-  timeline: "2019 - 2021"
+  timeline: "2017 - "
+  url: ""
+  summary: >
+    A mobile-capable food safety compliance auditing system for Primary Industries and Regions
+    SA, covering 3,000 South Australian meat, seafood, and sprout processors, retailers, and
+    cold transport vehicles. Migrated from legacy MS Access systems using Wildcat automated
+    conversion. Includes geospatial features, automated scheduling, and offline sync so
+    auditors can access client compliance data in remote and rural locations — spanning over
+    50,000 audit records, each with several hundred data points.
+  tags: ["enterprise", "government"]
+
+- name: PIRSA — RUFIS
+  image: images/sections/projects/pirsa-rufis.jpg
+  role: Developer
+  timeline: "2020 - 2021"
+  url: ""
+  summary: >
+    A replacement for PIRSA's legacy Oracle-based Rural Finance Information System, which
+    managed over $430m in subsidised mortgages, financial assistance products, and grants to
+    rural businesses. The new system migrated all financial data with interest calculations
+    matched to within 1 cent of the original, eliminated Oracle licensing costs, and was
+    welcomed by staff as a significant usability improvement over the old system.
+  tags: ["enterprise", "government"]
+
+- name: Skyve Flows
+  image: images/sections/projects/skyve-flows.png
+  role: Developer
+  timeline: "2020 - 2021"
+  url: ""
+  summary: >
+    A visual workflow designer built as an extension to the Skyve enterprise platform.
+    Enabled non-technical users to design and deploy structured process flows within
+    their Skyve applications.
+  tags: ["enterprise"]
+
+- name: Teacher Professional Learning
+  image: images/sections/projects/tpl.png
+  role: Developer
+  timeline: "2019 - 2020"
+  url: ""
+  summary: >
+    A professional learning management system for John Edmondson High School, migrated from
+    a legacy Microsoft Access system using Skyve's Wildcat conversion tool. Teachers submit
+    professional learning applications to senior management for approval, with budget tracking
+    across faculties and custom dashboards for teachers, head teachers, and executives.
+  tags: ["enterprise", "government"]
+
+- name: AHC — Heritage Document Management
+  image: images/sections/projects/ahc.jpg
+  role: Developer
+  timeline: "2018 - 2019"
+  url: ""
+  summary: >
+    A document and records management system built for the Australian Hills Council.
+    Managed heritage location registers, advocacy documentation, agendas, minutes, contracts,
+    and national nomination workflows.
+  tags: ["enterprise", "government"]
+
+- name: Config Engine
+  image: images/sections/projects/config-engine.jpg
+  role: Tech Lead
+  timeline: "2015 - 2018"
+  url: ""
+  summary: >
+    Built for SA Health to manage the transition to the new Royal Adelaide Hospital — at the
+    time the 7th most expensive building in the world. The system managed how more than 15,000
+    staff, 4,000 devices, medical equipment, phones, furniture, computers, software and network
+    accounts would be allocated and configured. Combined interactive floor plans with drag-drop
+    allocation, proximity-based printer assignment, telephone hunt groups, and building
+    provisioning — all while avoiding interruption to essential hospital services.
+  tags: ["enterprise", "government"]
+
+- name: Dairysafe
+  image: images/sections/projects/dairysafe.png
+  role: Developer
+  timeline: "2017 - 2018"
+  url: ""
+  summary: >
+    A quality management system for the Dairy Authority of South Australia, the legislative
+    body responsible for overseeing dairy food safety across the state. The system performs
+    comprehensive recurring audits against all farms, dairy processors, and transport vehicles,
+    and includes incident and complaint management, business continuity tools, online annual
+    returns for operators, and industry-wide KPI dashboards. Migrated existing audit history
+    to ensure continuity of compliance records between audits.
+  tags: ["enterprise", "government"]
+
+- name: SA Designer Homes
+  image: images/sections/projects/sa-designer-homes.png
+  role: Developer
+  timeline: "2016"
+  url: ""
+  summary: >
+    Website and client-facing application for a residential home builder. Included a public
+    marketing site and a private portal for managing client selections and project progress.
+  tags: ["web"]
+
+- name: Fotura
+  image: images/sections/projects/fotura.png
+  role: Founder & Developer
+  timeline: "2012 - 2014"
+  url: "https://fotura.com.au"
+  summary: >
+    Web and design studio helping small businesses build their online presence. Full-service
+    offering from strategy and design through to development and hosting. Clients included
+    businesses across real estate photography, trade services, and professional services.
+  tags: ["web"]
+
+- name: Latitude — Video Platform
+  image: images/sections/projects/latitude.png
+  role: Developer
+  timeline: "2014"
+  url: ""
+  summary: >
+    A mobile video streaming and download platform. Features included curated content feeds,
+    most popular and recently watched lists, offline playback, and a full search experience.
+  tags: ["mobile"]
+
+- name: Nymet
+  image: images/sections/projects/nymet.jpg
+  role: Developer
+  timeline: "2014"
+  url: ""
+  summary: >
+    An e-commerce website for an industrial valve and flow control supplier. Custom product
+    catalogue with category hierarchy, product detail pages, and a clean, conversion-focused
+    design.
+  tags: ["web"]
+
+- name: PsychWell
+  image: images/sections/projects/psychwell.png
+  role: Developer
+  timeline: "2013 - 2014"
+  url: ""
+  summary: >
+    A practice management system for psychology clinics. Managed patient records, appointment
+    scheduling, and clinical documentation workflows.
+  tags: ["enterprise"]
+
+- name: Two Hungry Italians
+  role: Content creator
+  timeline: "2013-2014"
+  url: ""
+  summary: >
+    Personal food review website my cousin and I used to review schnitzels at pubs around
+    Adelaide every week. Made it into the top 3 food blogs on Urbanspoon in Adelaide, back when
+    that was a thing, and before Instagram took over.
+  tags: ["web"]
+
+- name: Simon Maiolo
+  image: images/sections/projects/simon-maiolo.png
+  role: Developer
+  timeline: "2013"
+  url: ""
+  summary: >
+    Personal brand website for a professional photgrapher. Clean design focused on
+    showcasing Simon's portfolio.
+  tags: ["web"]
+
+- name: Soranna Electrical
+  image: images/sections/projects/soranna-electrical.png
+  role: Developer
+  timeline: "2013"
+  url: ""
+  summary: >
+    Business website for a residential and commercial electrician. Designed to generate
+    leads with a clear service overview, contact forms, and a mobile-first layout.
+  tags: ["web"]
+
+- name: SA Power Networks — Citizen Portals
+  image: images/sections/projects/sa-power-networks.png
+  role: Developer
+  timeline: "2011 - 2012"
   url: ""
   summary: >
     A suite of citizen-facing web applications for SA Power Networks, including Power @ My
     Place (residential energy supply information), Report a Street Light Out (fault reporting),
     and an online forms platform for customer service workflows.
   tags: ["enterprise", "government"]
-
-- name: Fotura
-  role: Founder & Developer
-  timeline: "2020 - Present"
-  url: ""
-  summary: >
-    Web and design studio helping small businesses build their online presence. Full-service
-    offering from strategy and design through to development and hosting.
-  tags: ["web"]
-
-- name: Two Hungry Italians
-  role: Developer
-  timeline: "2022"
-  url: ""
-  summary: >
-    Website for Two Hungry Italians, an Adelaide food experience brand. Custom-built to
-    showcase their story, events, and offerings.
-  tags: ["web"]

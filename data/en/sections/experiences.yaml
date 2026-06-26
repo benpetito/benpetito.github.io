@@ -16,18 +16,19 @@ experiences:
       conventional approaches.
   positions:
   - designation: Solutions Architect
-    start: Sep 2024
+    start: Sep 2019
     responsibilities:
     - Lead solution architecture across enterprise software projects in government and private sector
+    - Tech lead on bespoke enterprise applications for PIRSA, DEW, and other major clients
     - Define integration strategies for legacy modernisation and AI adoption initiatives
     - Guide teams through technically complex, compliance-sensitive environments
   - designation: Senior Software Developer
     start: Dec 2016
-    end: Aug 2024
+    end: Aug 2019
     responsibilities:
-    - Tech lead on bespoke enterprise applications for SA Health, SA Power Networks, and other major clients
     - Designed and delivered complex integrations between legacy and modern systems
-    - Built the Config Engine — a large-scale ICT transition platform used to manage the move to the new Royal Adelaide Hospital
+    - Worked on the Config Engine — a large-scale ICT transition platform used to manage the move to the new Royal Adelaide Hospital
+    - Contributed automated unit test generation to the Skyve Enterprise Platform
 
 - company:
     name: SMS Management & Technology

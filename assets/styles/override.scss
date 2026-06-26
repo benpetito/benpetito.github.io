@@ -1,0 +1,33 @@
+/* override this file for custom css */
+
+/* you can import bootstrap mixins */
+// @import 'bootstrap/scss/mixins';
+// Example usage
+// .some-class {
+//   @include media-breakpoint-up(sm) {
+//     // Larger than sm: 576px
+//     display: inline;
+//   }
+//   @include media-breakpoint-down(md) {
+//     // Smaller than md: 768px
+//     display: block;
+//   }
+// }
+
+.projects-section {
+  .card {
+    .card-head {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+html[data-theme='dark'] {
+  .projects-section {
+    .card {
+      .card-head {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      }
+    }
+  }
+}

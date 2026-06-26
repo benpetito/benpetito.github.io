@@ -45,7 +45,7 @@ params:
   background: /images/site/background.jpg
 
   logo:
-    favicon: /images/site/favicon.png
+    favicon: images/favicon-32x32.png
 
   gitRepo: https://github.com/benpetito/benpetito.github.io
   gitBranch: main
