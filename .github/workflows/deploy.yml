@@ -41,9 +41,12 @@ jobs:
           extended: true
 
       - name: Install npm dependencies (theme fonts/icons)
-        run: npm install --prefix . $(hugo mod npm pack)
+        run: |
+          hugo mod npm pack
+          npm install --prefix .
         # The Toha theme requires flag-icons, @fontsource/mulish, and katex.
-        # `hugo mod npm pack` writes package.hugo.json; npm install reads it.
+        # `hugo mod npm pack` writes packages/hugoautogen/package.json and updates
+        # the root package.json workspaces entry; npm install then reads those.
 
       - name: Configure Pages
         id: pages
