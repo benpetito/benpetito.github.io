@@ -2,7 +2,7 @@ section:
   name: Projects
   id: projects
   enable: true
-  weight: 5
+  weight: 6
   showOnNavbar: true
 
 buttons:
