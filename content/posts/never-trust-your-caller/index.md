@@ -24,7 +24,7 @@ The part of the write-up that would have made me pull my hair out (if I had any 
 
 There's a second lesson in there too. At a guess, those FIFA systems were built as internal tools, for a small set of trusted staff, and the trust assumptions probably made sense on day one. Then a public registration portal got wired into the same tenant, and every one of those assumptions silently expired. Today's internal API has a habit of becoming tomorrow's public endpoint, usually without anyone going back to check what it was built to assume.
 
-So I don't write code expecting everyone to use it correctly. I write it expecting someone, eventually, to misuse it by accident - another developer, an integration, an AI agent with a creative interpretation of my API. Good software isn't just correct on the happy path. It's hard to use incorrectly.
+So I write code expecting that someone, eventually, will misuse it by accident - another developer, an integration, an AI agent with a creative interpretation of my API. Making it hard to use incorrectly costs a little more up front, but it's a lot cheaper than finding out from a stranger's blog post which of your assumptions a caller finally broke.
 
 ---
 
