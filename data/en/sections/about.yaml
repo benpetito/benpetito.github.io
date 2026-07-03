@@ -6,7 +6,7 @@ section:
   showOnNavbar: true
   template: sections/about.html
 
-designation: Solutions Architect & Tech Lead
+designation: Solution Architect & Tech Lead
 company:
   name: Biz Hub Australia
   url: "https://bizhub.com.au"
