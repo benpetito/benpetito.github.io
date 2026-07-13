@@ -8,6 +8,8 @@ section:
 buttons:
 - name: All
   filter: "all"
+- name: AI
+  filter: "ai"
 - name: Enterprise
   filter: "enterprise"
 - name: Government
@@ -18,6 +20,76 @@ buttons:
   filter: "mobile"
 
 projects:
+- name: Audit Summaries
+  image: images/sections/projects/ai-audit-summaries.png
+  role: Developer
+  timeline: "Dec 2025"
+  url: "/posts/ai-audit-summaries/"
+  summary: >
+    LLM-powered summarisation of nearly two decades of audit comments into concise, actionable
+    summaries, using a local model to keep commercially sensitive data private. Skyve's
+    metadata made it straightforward to identify the relevant comment fields to include.
+  tags: ["ai"]
+
+- name: Skyve UI Enhancer
+  image: images/sections/projects/skyve-ui-enhancer.png
+  role: Developer
+  timeline: "Jun 2025"
+  url: ""
+  summary: >
+    A tool that uses chat, screenshots, or sketches to generate or refine a Skyve application's
+    screen definitions, and to generate application documentation and tooltips from context.
+    Exploring the best way to integrate it into the development workflow — from within an
+    application's own UI or from the command line — and whether it earns its place over
+    general-purpose tools like Copilot or Cursor.
+  tags: ["ai"]
+
+- name: Event Insights
+  image: images/sections/projects/event-insights.png
+  role: Developer
+  timeline: "Oct 2024"
+  url: "https://www.linkedin.com/pulse/quest-bring-actionable-insights-life-ai-ben-petito-uuayc/"
+  summary: >
+    Explored whether AI can review application data, generate insights automatically, and
+    suggest actions based on them — configurable to run against a hosted model or a local
+    model for privacy. The hardest part was keeping the AI quiet when there was nothing
+    worth suggesting.
+  tags: ["ai"]
+
+- name: Screenshot to Skyve Forms
+  image: images/sections/projects/screenshot-to-skyve-forms.png
+  role: Developer
+  timeline: "Dec 2023"
+  url: "https://skyve.org/blog/2023/12/21/transforming-forms-with-ai"
+  summary: >
+    Adapted a screenshot-to-webpage library to instead generate a Skyve edit view (screen
+    definition), then integrated it into Skyve Forms so a photo of a paper form can be turned
+    directly into a digital one — automating what was previously a tedious manual build step.
+  tags: ["ai"]
+
+- name: Foundry App Generator
+  image: images/sections/projects/foundry-app-generator.png
+  role: Developer
+  timeline: "Apr 2023"
+  url: "https://skyve.org/blog/2023/5/15/foundry-500-released"
+  summary: >
+    Integrated the OpenAI API into Skyve Foundry, Biz Hub's no-code application builder, to
+    turn a plain-language application description into an intermediate JSON format that's
+    parsed into a working Skyve application. Found that most use cases could be met with a
+    small set of basic building blocks.
+  tags: ["ai"]
+
+- name: Skyve Flows
+  image: images/sections/projects/skyve-flows.png
+  role: Developer
+  timeline: "2023 - 2024"
+  url: ""
+  summary: >
+    A visual workflow designer built as an extension to the Skyve enterprise platform.
+    Enabled non-technical users to design and deploy structured process flows within
+    their Skyve applications.
+  tags: ["enterprise"]
+
 - name: IQMS — Winston
   image: images/sections/projects/iqms.png
   role: Developer
@@ -30,6 +102,56 @@ projects:
     business development managers — each with tailored access to templates, customer progress,
     communications, and payment information.
   tags: ["enterprise"]
+
+- name: Dairysafe
+  image: images/sections/projects/dairysafe.png
+  role: Developer
+  timeline: "2020 - "
+  url: ""
+  summary: >
+    A quality management system for the Dairy Authority of South Australia, the legislative
+    body responsible for overseeing dairy food safety across the state. The system performs
+    comprehensive recurring audits against all farms, dairy processors, and transport vehicles,
+    and includes incident and complaint management, business continuity tools, online annual
+    returns for operators, and industry-wide KPI dashboards. Migrated existing audit history
+    to ensure continuity of compliance records between audits.
+  tags: ["enterprise", "government"]
+
+- name: PIRSA — RUFIS
+  image: images/sections/projects/pirsa-rufis.jpg
+  role: Developer
+  timeline: "2020 - 2021"
+  url: ""
+  summary: >
+    A replacement for PIRSA's legacy Oracle-based Rural Finance Information System, which
+    managed over $430m in subsidised mortgages, financial assistance products, and grants to
+    rural businesses. The new system migrated all financial data with interest calculations
+    matched to within 1 cent of the original, eliminated Oracle licensing costs, and was
+    welcomed by staff as a significant usability improvement over the old system.
+  tags: ["enterprise", "government"]
+
+- name: Teacher Professional Learning
+  image: images/sections/projects/tpl.png
+  role: Developer
+  timeline: "2019 - 2020"
+  url: ""
+  summary: >
+    A professional learning management system for John Edmondson High School, migrated from
+    a legacy Microsoft Access system using Skyve's Wildcat conversion tool. Teachers submit
+    professional learning applications to senior management for approval, with budget tracking
+    across faculties and custom dashboards for teachers, head teachers, and executives.
+  tags: ["enterprise", "government"]
+
+- name: AHC — Heritage Document Management
+  image: images/sections/projects/ahc.jpg
+  role: Developer
+  timeline: "2018 - 2019"
+  url: ""
+  summary: >
+    A document and records management system built for the Australian Hills Council.
+    Managed heritage location registers, advocacy documentation, agendas, minutes, contracts,
+    and national nomination workflows.
+  tags: ["enterprise", "government"]
 
 - name: Implant Billing
   image: images/sections/projects/implant-billing.png
@@ -59,53 +181,6 @@ projects:
     50,000 audit records, each with several hundred data points.
   tags: ["enterprise", "government"]
 
-- name: PIRSA — RUFIS
-  image: images/sections/projects/pirsa-rufis.jpg
-  role: Developer
-  timeline: "2020 - 2021"
-  url: ""
-  summary: >
-    A replacement for PIRSA's legacy Oracle-based Rural Finance Information System, which
-    managed over $430m in subsidised mortgages, financial assistance products, and grants to
-    rural businesses. The new system migrated all financial data with interest calculations
-    matched to within 1 cent of the original, eliminated Oracle licensing costs, and was
-    welcomed by staff as a significant usability improvement over the old system.
-  tags: ["enterprise", "government"]
-
-- name: Skyve Flows
-  image: images/sections/projects/skyve-flows.png
-  role: Developer
-  timeline: "2020 - 2021"
-  url: ""
-  summary: >
-    A visual workflow designer built as an extension to the Skyve enterprise platform.
-    Enabled non-technical users to design and deploy structured process flows within
-    their Skyve applications.
-  tags: ["enterprise"]
-
-- name: Teacher Professional Learning
-  image: images/sections/projects/tpl.png
-  role: Developer
-  timeline: "2019 - 2020"
-  url: ""
-  summary: >
-    A professional learning management system for John Edmondson High School, migrated from
-    a legacy Microsoft Access system using Skyve's Wildcat conversion tool. Teachers submit
-    professional learning applications to senior management for approval, with budget tracking
-    across faculties and custom dashboards for teachers, head teachers, and executives.
-  tags: ["enterprise", "government"]
-
-- name: AHC — Heritage Document Management
-  image: images/sections/projects/ahc.jpg
-  role: Developer
-  timeline: "2018 - 2019"
-  url: ""
-  summary: >
-    A document and records management system built for the Australian Hills Council.
-    Managed heritage location registers, advocacy documentation, agendas, minutes, contracts,
-    and national nomination workflows.
-  tags: ["enterprise", "government"]
-
 - name: Config Engine
   image: images/sections/projects/config-engine.jpg
   role: Tech Lead
@@ -118,20 +193,6 @@ projects:
     accounts would be allocated and configured. Combined interactive floor plans with drag-drop
     allocation, proximity-based printer assignment, telephone hunt groups, and building
     provisioning — all while avoiding interruption to essential hospital services.
-  tags: ["enterprise", "government"]
-
-- name: Dairysafe
-  image: images/sections/projects/dairysafe.png
-  role: Developer
-  timeline: "2017 - 2018"
-  url: ""
-  summary: >
-    A quality management system for the Dairy Authority of South Australia, the legislative
-    body responsible for overseeing dairy food safety across the state. The system performs
-    comprehensive recurring audits against all farms, dairy processors, and transport vehicles,
-    and includes incident and complaint management, business continuity tools, online annual
-    returns for operators, and industry-wide KPI dashboards. Migrated existing audit history
-    to ensure continuity of compliance records between audits.
   tags: ["enterprise", "government"]
 
 - name: SA Designer Homes
