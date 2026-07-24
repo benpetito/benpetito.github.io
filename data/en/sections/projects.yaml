@@ -20,16 +20,50 @@ buttons:
   filter: "mobile"
 
 projects:
+- name: Council Rates & Water Bill Digitisation
+  role: Tech Lead
+  timeline: "2026"
+  url: ""
+  summary: >
+    Automated ingestion and processing of council rate notices and water utility bills —
+    extracting invoice data, validating against business rules, and feeding downstream
+    finance workflows to reduce manual handling as document volumes grew.
+  tags: ["ai", "enterprise"]
+
+- name: Community Housing Rent Calculator
+  role: Tech Lead
+  timeline: "2026"
+  url: ""
+  summary: >
+    Automated rent reviews for a community housing provider managing hundreds of
+    tenancies. Triggers calculations from within the housing platform, submits tenancy
+    and income data to the Queensland Community Housing Rent Calculator (no public API),
+    and writes results back as in-progress reviews — cutting processing time by around
+    95%.
+  tags: ["enterprise"]
+
 - name: Audit Summaries
   image: images/sections/projects/ai-audit-summaries.png
   role: Developer
   timeline: "Dec 2025"
   url: "/posts/ai-audit-summaries/"
   summary: >
-    LLM-powered summarisation of nearly two decades of audit comments into concise, actionable
-    summaries, using a local model to keep commercially sensitive data private. Skyve's
-    metadata made it straightforward to identify the relevant comment fields to include.
+    LLM-powered summarisation of nearly two decades of audit comments into concise,
+    actionable summaries, using a local model to keep commercially sensitive data
+    private. Skyve's metadata made it straightforward to identify the relevant comment
+    fields to include.
   tags: ["ai"]
+
+- name: Dairysafe — Lab Results
+  role: Tech Lead
+  timeline: "Sep 2025"
+  url: ""
+  summary: >
+    AI-assisted lab report ingestion for Dairysafe — monitoring a shared inbox for PDF
+    results, extracting test data across multiple lab formats, matching reports to
+    operators, and routing them through approval and compliance alerts. Built as an
+    extension of the existing QMS rather than a standalone system.
+  tags: ["ai", "enterprise", "government"]
 
 - name: Skyve UI Enhancer
   image: images/sections/projects/skyve-ui-enhancer.png
@@ -37,12 +71,32 @@ projects:
   timeline: "Jun 2025"
   url: ""
   summary: >
-    A tool that uses chat, screenshots, or sketches to generate or refine a Skyve application's
-    screen definitions, and to generate application documentation and tooltips from context.
-    Exploring the best way to integrate it into the development workflow — from within an
-    application's own UI or from the command line — and whether it earns its place over
-    general-purpose tools like Copilot or Cursor.
+    A tool that uses chat, screenshots, or sketches to generate or refine a Skyve
+    application's screen definitions, and to generate application documentation and
+    tooltips from context. Exploring the best way to integrate it into the development
+    workflow — from within an application's own UI or from the command line — and
+    whether it earns its place over general-purpose tools like Copilot or Cursor.
   tags: ["ai"]
+
+- name: GRID — Disaster Waste Management
+  role: Tech Lead & Project Management
+  timeline: "2025 - "
+  url: ""
+  summary: >
+    Microsoft Access migration of a Disaster waste planning and operations module for 
+    Green Industries SA, built on the GRID platform. Supports contractor workflows, waste 
+    hierarchy alignment, and sensitive-data handling for emergency waste response.
+  tags: ["enterprise", "government"]
+
+- name: Mediation Scheduling
+  role: Tech Lead
+  timeline: "2025 - "
+  url: ""
+  summary: >
+    A case management system for scheduling and running mediation sessions between
+    parties — covering case setup, time-slot management, session formats, notifications,
+    and reporting for mediators and administrators.
+  tags: ["enterprise"]
 
 - name: Event Insights
   image: images/sections/projects/event-insights.png
@@ -50,11 +104,52 @@ projects:
   timeline: "Oct 2024"
   url: "https://www.linkedin.com/pulse/quest-bring-actionable-insights-life-ai-ben-petito-uuayc/"
   summary: >
-    Explored whether AI can review application data, generate insights automatically, and
-    suggest actions based on them — configurable to run against a hosted model or a local
-    model for privacy. The hardest part was keeping the AI quiet when there was nothing
-    worth suggesting.
+    Explored whether AI can review application data, generate insights automatically,
+    and suggest actions based on them — configurable to run against a hosted model or a
+    local model for privacy. The hardest part was keeping the AI quiet when there was
+    nothing worth suggesting.
   tags: ["ai"]
+
+- name: AI Document Capture
+  role: Solution Architect & Tech Lead
+  timeline: "2024 - "
+  url: ""
+  summary: >
+    An accounts-payable document automation platform that integrates with an AI
+    extraction engine, then runs invoices and related documents through multi-stage
+    validation, business rules, and reviewer queues before export. Designed for high
+    weekly document volumes with an increasing share of straight-through processing.
+  tags: ["ai", "enterprise"]
+
+- name: Accounts Payable Automation
+  role: Solution Architect & Tech Lead
+  timeline: "2024 - "
+  url: ""
+  summary: >
+    Automated invoice management for a workers' compensation specialist — extracting
+    data from PDF email attachments, routing through admin, consultant, and client
+    approval workflows, and exporting search-filtered results for external reporting.
+  tags: ["ai", "enterprise"]
+
+- name: Service Excellence Recognition
+  role: Tech Lead & Project Manager
+  timeline: "2024 - 2025"
+  url: ""
+  summary: >
+    An online development tool helping community organisations demonstrate service
+    delivery capability against recognition standards — organisation profiles, evidence
+    capture, and structured self-assessment workflows.
+  tags: ["enterprise", "government"]
+
+- name: Dairysafe — Training Register
+  role: Tech Lead
+  timeline: "2024 - "
+  url: ""
+  summary: >
+    A training register for Dairysafe operators and staff — courses with video content,
+    lessons, and assessments, with an administrator view for managing the catalogue and
+    tracking progress alongside the quality management system.
+  tags: ["enterprise", "government"]
 
 - name: Screenshot to Skyve Forms
   image: images/sections/projects/screenshot-to-skyve-forms.png
@@ -62,9 +157,10 @@ projects:
   timeline: "Dec 2023"
   url: "https://skyve.org/blog/2023/12/21/transforming-forms-with-ai"
   summary: >
-    Adapted a screenshot-to-webpage library to instead generate a Skyve edit view (screen
-    definition), then integrated it into Skyve Forms so a photo of a paper form can be turned
-    directly into a digital one — automating what was previously a tedious manual build step.
+    Adapted a screenshot-to-webpage library to instead generate a Skyve edit view
+    (screen definition), then integrated it into Skyve Forms so a photo of a paper form
+    can be turned directly into a digital one — automating what was previously a tedious
+    manual build step.
   tags: ["ai"]
 
 - name: Foundry App Generator
@@ -73,10 +169,10 @@ projects:
   timeline: "Apr 2023"
   url: "https://skyve.org/blog/2023/5/15/foundry-500-released"
   summary: >
-    Integrated the OpenAI API into Skyve Foundry, Biz Hub's no-code application builder, to
-    turn a plain-language application description into an intermediate JSON format that's
-    parsed into a working Skyve application. Found that most use cases could be met with a
-    small set of basic building blocks.
+    Integrated the OpenAI API into Skyve Foundry, Biz Hub's no-code application builder,
+    to turn a plain-language application description into an intermediate JSON format
+    that's parsed into a working Skyve application. Found that most use cases could be
+    met with a small set of basic building blocks.
   tags: ["ai"]
 
 - name: Skyve Flows
@@ -90,109 +186,236 @@ projects:
     their Skyve applications.
   tags: ["enterprise"]
 
+- name: School-care Management
+  role: Tech Lead & Project Manager
+  timeline: "2023 - 2026"
+  url: ""
+  summary: >
+    A school-care early intervention and case management system for a US healthcare provider — tracking
+    students, parents, program participation, attendance, and surveys across educational
+    and support programs.
+  tags: ["enterprise"]
+
+- name: GRID — Time Series
+  role: Solution Architect & Tech Lead
+  timeline: "2023 - "
+  url: ""
+  summary: >
+    Time-series environmental monitoring for Green Industries SA — the final module
+    needed to decommission the legacy Oracle Zeus system. Migrated ~350,000 rows
+    (2008–2023) into GRID, with configurable programs and measures, spreadsheet
+    import/export, validation rules, and trend reporting.
+  tags: ["enterprise", "government"]
+
+- name: Online Teacher Applications
+  role: Senior Developer
+  timeline: "2022 - "
+  url: ""
+  summary: >
+    A recruitment register for casual teachers — applications, qualifications,
+    employment streams, search, and automated processes supporting an institute's hiring
+    workflows.
+  tags: ["enterprise", "government"]
+
+- name: Bindah
+  role: Tech Lead & Project Manager
+  timeline: "2022 - 2024"
+  url: ""
+  summary: >
+    A multi-tenant budget planning and decision tool for local councils, with a web
+    application and companion iOS/Android clients. Led API and domain design so councils
+    share the same platform with full data isolation between tenants.
+  tags: ["enterprise", "government", "mobile"]
+
+- name: Aquatic Laboratory Management
+  role: Tech Lead
+  timeline: "2022 - "
+  url: ""
+  summary: >
+    Led a major redevelopment of an aquatic sample and laboratory system (algal,
+    biotoxin, and microbiological testing) — unifying, cleansing, and consolidating
+    legacy data rather than a greenfield build, while improving scheduling,
+    traceability, and reporting.
+  tags: ["enterprise", "government"]
+
+- name: Instrument Asset Database
+  role: Solution Architect & Tech Lead
+  timeline: "2022 - "
+  url: ""
+  summary: >
+    Asset management for water-resource monitoring instruments — registry, maintenance,
+    field deployments, and lifecycle reporting for a state environment agency.
+  tags: ["enterprise", "government"]
+
+- name: Tenement & Billing System
+  role: Solution Architect & Tech Lead
+  timeline: "2022 - 2024"
+  url: ""
+  summary: >
+    A tenement lifecycle and billing platform for a state environment agency —
+    transfers, amendments, cancellations, and related financial workflows. Mentored a
+    blended delivery team to train and upskill the client's in-house developers
+    alongside the build.
+  tags: ["enterprise", "government"]
+
+- name: Watersports Member Portal
+  role: Senior Developer
+  timeline: "2022 - "
+  url: ""
+  summary: >
+    Membership portal for a national watersports peak body — members, divisions,
+    officials, and clubs as a single source of truth, with communications and a
+    foundation for payments and future member services.
+  tags: ["enterprise", "web"]
+
+- name: GRID — Grant & Contract Management
+  role: Senior Developer
+  timeline: "2021 - "
+  url: ""
+  summary: >
+    Grant and contract management for Green Industries SA, replacing the legacy
+    Oracle system. Contributed UX prototypes and senior development across grants,
+    contracts, CRM, and enquiry management, with full migration of historical records
+    and attachments.
+  tags: ["enterprise", "government"]
+
+- name: Insurance Claim Registry
+  role: Tech Lead
+  timeline: "2021 - "
+  url: ""
+  summary: >
+    Migrated a motor-vehicle insurance claim register from unsupported Oracle to a
+    modern web platform. Insurers submit monthly claim and payment files with
+    field-level validation; designed and built an expression-based dynamic rules engine
+    so administrators can adjust validation rules in the running system without a
+    development cycle.
+  tags: ["enterprise", "government"]
+
+- name: Traffic System Backup Database
+  role: Tech Lead
+  timeline: "2021 - 2025"
+  url: ""
+  summary: >
+    Replaced an MS Access backup database for a coordinated adaptive traffic signal
+    system — preserving historical network state that the operational platform could not
+    retain, and giving traffic engineers a supported web interface for configuration
+    history.
+  tags: ["enterprise", "government"]
+
 - name: IQMS — Winston
   image: images/sections/projects/iqms.png
   role: Developer
   timeline: "2021-2023"
   url: ""
   summary: >
-    An ISO certification management platform for IQMS Australasia. Organisations register
-    and subscribe to the system to work towards ISO certification guided by IQMS consultants.
-    The platform supports distinct roles for system administrators, customer consultants, and
-    business development managers — each with tailored access to templates, customer progress,
-    communications, and payment information.
+    An ISO certification management platform for IQMS Australasia. Organisations
+    register and subscribe to the system to work towards ISO certification guided by
+    IQMS consultants. The platform supports distinct roles for system administrators,
+    customer consultants, and business development managers — each with tailored access
+    to templates, customer progress, communications, and payment information.
   tags: ["enterprise"]
 
-- name: Dairysafe
-  image: images/sections/projects/dairysafe.png
-  role: Developer
-  timeline: "2020 - "
-  url: ""
-  summary: >
-    A quality management system for the Dairy Authority of South Australia, the legislative
-    body responsible for overseeing dairy food safety across the state. The system performs
-    comprehensive recurring audits against all farms, dairy processors, and transport vehicles,
-    and includes incident and complaint management, business continuity tools, online annual
-    returns for operators, and industry-wide KPI dashboards. Migrated existing audit history
-    to ensure continuity of compliance records between audits.
-  tags: ["enterprise", "government"]
-
-- name: PIRSA — RUFIS
-  image: images/sections/projects/pirsa-rufis.jpg
-  role: Developer
+- name: Business Finance Matching Portal
+  role: Senior Developer
   timeline: "2020 - 2021"
   url: ""
   summary: >
-    A replacement for PIRSA's legacy Oracle-based Rural Finance Information System, which
-    managed over $430m in subsidised mortgages, financial assistance products, and grants to
-    rural businesses. The new system migrated all financial data with interest calculations
-    matched to within 1 cent of the original, eliminated Oracle licensing costs, and was
-    welcomed by staff as a significant usability improvement over the old system.
+    A pilot portal matching businesses seeking finance with participating lenders —
+    applicants describe their needs and situation, then algorithms produce a priority
+    list of providers who can meet the request.
+  tags: ["enterprise", "web"]
+
+- name: PIRSA — RUFIS
+  image: images/sections/projects/pirsa-rufis.jpg
+  role: Senior Developer
+  timeline: "2020 - "
+  url: ""
+  summary: >
+    A replacement for PIRSA's legacy Oracle-based Rural Finance Information System,
+    which managed over $430m in subsidised mortgages, financial assistance products, and
+    grants to rural businesses. The new system migrated all financial data with interest
+    calculations matched to within 1 cent of the original, eliminated Oracle licensing
+    costs, and was welcomed by staff as a significant usability improvement over the old
+    system.
+  tags: ["enterprise", "government"]
+
+- name: Dairysafe
+  image: images/sections/projects/dairysafe.png
+  role: Senior Developer
+  timeline: "2020 - "
+  url: ""
+  summary: >
+    A quality management system for the Dairy Authority of South Australia, the
+    legislative body responsible for overseeing dairy food safety across the state. The
+    system performs comprehensive recurring audits against all farms, dairy processors,
+    and transport vehicles, and includes incident and complaint management, business
+    continuity tools, online annual returns for operators, and industry-wide KPI
+    dashboards. Migrated existing audit history to ensure continuity of compliance
+    records between audits.
   tags: ["enterprise", "government"]
 
 - name: Teacher Professional Learning
   image: images/sections/projects/tpl.png
-  role: Developer
+  role: Senior Developer
   timeline: "2019 - 2020"
   url: ""
   summary: >
-    A professional learning management system for John Edmondson High School, migrated from
-    a legacy Microsoft Access system using Skyve's Wildcat conversion tool. Teachers submit
-    professional learning applications to senior management for approval, with budget tracking
-    across faculties and custom dashboards for teachers, head teachers, and executives.
+    A professional learning management system for John Edmondson High School, migrated
+    from a legacy Microsoft Access system using Skyve's Wildcat conversion tool.
+    Teachers submit professional learning applications to senior management for
+    approval, with budget tracking across faculties and custom dashboards for teachers,
+    head teachers, and executives.
   tags: ["enterprise", "government"]
 
 - name: AHC — Heritage Document Management
   image: images/sections/projects/ahc.jpg
-  role: Developer
+  role: Senior Developer
   timeline: "2018 - 2019"
   url: ""
   summary: >
     A document and records management system built for the Australian Hills Council.
-    Managed heritage location registers, advocacy documentation, agendas, minutes, contracts,
-    and national nomination workflows.
+    Managed heritage location registers, advocacy documentation, agendas, minutes,
+    contracts, and national nomination workflows.
   tags: ["enterprise", "government"]
 
 - name: Implant Billing
   image: images/sections/projects/implant-billing.png
-  role: Developer
+  role: Senior Developer
   timeline: "2018 - "
   url: ""
   summary: >
     A surgical prosthesis billing system for SA Health, ensuring the Royal Adelaide and
-    Queen Elizabeth hospitals correctly recover the costs of implants and consumables from
-    insurers. The system replaced a paper-based process that was not migrated when the new
-    RAH opened — importing data from the corporate financial system, facilitating structured
-    data entry of paper surgery records, and exporting billing data directly into Sunrise EMR
-    for invoicing.
+    Queen Elizabeth hospitals correctly recover the costs of implants and consumables
+    from insurers. The system replaced a paper-based process that was not migrated when
+    the new RAH opened — importing data from the corporate financial system,
+    facilitating structured data entry of paper surgery records, and exporting billing
+    data directly into Sunrise EMR for invoicing.
+  tags: ["enterprise", "government"]
+
+- name: RevenueSA Online
+  role: Senior Developer
+  timeline: "2017 - "
+  url: ""
+  summary: >
+    South Australia's public tax portal and back-office platform for 300,000-plus
+    taxpayers. Contributed to the payroll tax and land tax components — registration,
+    returns, and related workflows — as the system progressively replaced ageing
+    financial systems and supported rapid delivery of new grant programs.
   tags: ["enterprise", "government"]
 
 - name: PIRSA — Food Safety Auditing
   image: images/sections/projects/pirsa-food-safety.png
-  role: Developer
+  role: Senior Developer
   timeline: "2017 - "
   url: ""
   summary: >
-    A mobile-capable food safety compliance auditing system for Primary Industries and Regions
-    SA, covering 3,000 South Australian meat, seafood, and sprout processors, retailers, and
-    cold transport vehicles. Migrated from legacy MS Access systems using Wildcat automated
-    conversion. Includes geospatial features, automated scheduling, and offline sync so
-    auditors can access client compliance data in remote and rural locations — spanning over
-    50,000 audit records, each with several hundred data points.
-  tags: ["enterprise", "government"]
-
-- name: Config Engine
-  image: images/sections/projects/config-engine.jpg
-  role: Tech Lead
-  timeline: "2015 - 2018"
-  url: ""
-  summary: >
-    Built for SA Health to manage the transition to the new Royal Adelaide Hospital — at the
-    time the 7th most expensive building in the world. The system managed how more than 15,000
-    staff, 4,000 devices, medical equipment, phones, furniture, computers, software and network
-    accounts would be allocated and configured. Combined interactive floor plans with drag-drop
-    allocation, proximity-based printer assignment, telephone hunt groups, and building
-    provisioning — all while avoiding interruption to essential hospital services.
+    A mobile-capable food safety compliance auditing system for Primary Industries and
+    Regions SA, covering 3,000 South Australian meat, seafood, and sprout processors,
+    retailers, and cold transport vehicles. Migrated from legacy MS Access systems using
+    Wildcat automated conversion. Includes geospatial features, automated scheduling,
+    and offline sync so auditors can access client compliance data in remote and rural
+    locations — spanning over 50,000 audit records, each with several hundred data
+    points.
   tags: ["enterprise", "government"]
 
 - name: SA Designer Homes
@@ -201,20 +424,25 @@ projects:
   timeline: "2016"
   url: ""
   summary: >
-    Website and client-facing application for a residential home builder. Included a public
-    marketing site and a private portal for managing client selections and project progress.
+    Website and client-facing application for a residential home builder. Included a
+    public marketing site and a private portal for managing client selections and
+    project progress.
   tags: ["web"]
 
-- name: Fotura
-  image: images/sections/projects/fotura.png
-  role: Founder & Developer
-  timeline: "2012 - 2014"
-  url: "https://fotura.com.au"
+- name: Config Engine
+  image: images/sections/projects/config-engine.jpg
+  role: Senior Developer
+  timeline: "2015 - 2018"
+  url: ""
   summary: >
-    Web and design studio helping small businesses build their online presence. Full-service
-    offering from strategy and design through to development and hosting. Clients included
-    businesses across real estate photography, trade services, and professional services.
-  tags: ["web"]
+    Built for SA Health to manage the transition to the new Royal Adelaide Hospital — at
+    the time the 7th most expensive building in the world. The system managed how more
+    than 15,000 staff, 4,000 devices, medical equipment, phones, furniture, computers,
+    software and network accounts would be allocated and configured. Combined
+    interactive floor plans with drag-drop allocation, proximity-based printer
+    assignment, telephone hunt groups, and building provisioning — all while avoiding
+    interruption to essential hospital services.
+  tags: ["enterprise", "government"]
 
 - name: Latitude — Video Platform
   image: images/sections/projects/latitude.png
@@ -222,8 +450,9 @@ projects:
   timeline: "2014"
   url: ""
   summary: >
-    A mobile video streaming and download platform. Features included curated content feeds,
-    most popular and recently watched lists, offline playback, and a full search experience.
+    A mobile video streaming and download platform. Features included curated content
+    feeds, most popular and recently watched lists, offline playback, and a full search
+    experience.
   tags: ["mobile"]
 
 - name: Nymet
@@ -232,9 +461,9 @@ projects:
   timeline: "2014"
   url: ""
   summary: >
-    An e-commerce website for an industrial valve and flow control supplier. Custom product
-    catalogue with category hierarchy, product detail pages, and a clean, conversion-focused
-    design.
+    An e-commerce website for an industrial valve and flow control supplier. Custom
+    product catalogue with category hierarchy, product detail pages, and a clean,
+    conversion-focused design.
   tags: ["web"]
 
 - name: PsychWell
@@ -243,19 +472,9 @@ projects:
   timeline: "2013 - 2014"
   url: ""
   summary: >
-    A practice management system for psychology clinics. Managed patient records, appointment
-    scheduling, and clinical documentation workflows.
+    A practice management system for psychology clinics. Managed patient records,
+    appointment scheduling, and clinical documentation workflows.
   tags: ["enterprise"]
-
-- name: Two Hungry Italians
-  role: Content creator
-  timeline: "2013-2014"
-  url: ""
-  summary: >
-    Personal food review website my cousin and I used to review schnitzels at pubs around
-    Adelaide every week. Made it into the top 3 food blogs on Urbanspoon in Adelaide, back when
-    that was a thing, and before Instagram took over.
-  tags: ["web"]
 
 - name: Simon Maiolo
   image: images/sections/projects/simon-maiolo.png
@@ -277,13 +496,35 @@ projects:
     leads with a clear service overview, contact forms, and a mobile-first layout.
   tags: ["web"]
 
+- name: Two Hungry Italians
+  role: Content creator
+  timeline: "2013-2014"
+  url: ""
+  summary: >
+    Personal food review website my cousin and I used to review schnitzels at pubs
+    around Adelaide every week. Made it into the top 3 food blogs on Urbanspoon in
+    Adelaide, back when that was a thing, and before Instagram took over.
+  tags: ["web"]
+
+- name: Fotura
+  image: images/sections/projects/fotura.png
+  role: Founder & Developer
+  timeline: "2012 - 2014"
+  url: "https://fotura.com.au"
+  summary: >
+    Web and design studio helping small businesses build their online presence.
+    Full-service offering from strategy and design through to development and hosting.
+    Clients included businesses across real estate photography, trade services, and
+    professional services.
+  tags: ["web"]
+
 - name: SA Power Networks — Citizen Portals
   image: images/sections/projects/sa-power-networks.png
   role: Developer
   timeline: "2011 - 2012"
   url: ""
   summary: >
-    A suite of citizen-facing web applications for SA Power Networks, including Power @ My
-    Place (residential energy supply information), Report a Street Light Out (fault reporting),
-    and an online forms platform for customer service workflows.
+    A suite of citizen-facing web applications for SA Power Networks, including Power @
+    My Place (residential energy supply information), Report a Street Light Out (fault
+    reporting), and an online forms platform for customer service workflows.
   tags: ["enterprise", "government"]
