@@ -12,7 +12,7 @@ tags: ["DevOps", "CI/CD", "Enterprise"]
 categories: ["Engineering"]
 ---
 
-This term was coined by Steve Gibson on his [Security Now](https://www.grc.com/securitynow.htm) podcast many years ago. Steve's realised that most people will never touch or change the default settings/options that come with any software. As part of delivering custom software solutions to our customers, this is something I think about fairly often, as the choices we make, while we give our customers levers to pull, rarely get changed.
+This term was coined by Steve Gibson on his [Security Now](https://www.grc.com/securitynow.htm) podcast many years ago. Steve realised that most people will never touch or change the default settings/options that come with any software. As part of delivering custom software solutions to our customers, this is something I think about fairly often, as the choices we make, while we give our customers levers to pull, rarely get changed.
 
 I tripped over this last week in a slightly different situation while investigating for a customer what static analysis and CVE detection was in place for their application. We use GitHub for almost all of our projects and have a mature, well-worn CI pipeline (the thing that builds the application and runs checks and tests when new code is pushed). But for this customer, we host it in their Bitbucket repository.
 
