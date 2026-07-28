@@ -410,7 +410,7 @@ projects:
   url: ""
   summary: >
     A mobile-capable food safety compliance auditing system for Primary Industries and
-    Regions SA, covering 3,000 South Australian meat, seafood, and sprout processors,
+    Regions SA, covering more than 2,000 South Australian meat, seafood, and sprout processors,
     retailers, and cold transport vehicles. Migrated from legacy MS Access systems using
     Wildcat automated conversion. Includes geospatial features, automated scheduling,
     and offline sync so auditors can access client compliance data in remote and rural
@@ -475,6 +475,17 @@ projects:
     A practice management system for psychology clinics. Managed patient records,
     appointment scheduling, and clinical documentation workflows.
   tags: ["enterprise"]
+
+- name: WaterMe
+  role: Developer
+  timeline: "2013 - 2015"
+  url: ""
+  summary: >
+    A consumer irrigation controller product. The hardware was manufactured overseas
+    and initial firmware existed, but there was no software ecosystem around it, so we
+    built the cloud platform, web application, mobile integrations and the
+    communication layer to the controllers.
+  tags: ["web", "mobile"]
 
 - name: Simon Maiolo
   image: images/sections/projects/simon-maiolo.png
