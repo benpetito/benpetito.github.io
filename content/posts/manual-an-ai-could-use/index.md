@@ -1,0 +1,29 @@
+---
+title: "Turning a 232-Page Manual Into Something an AI Could Use"
+date: 2026-08-09T09:00:00+09:30
+description: The gap that catches organisations pointing AI at legacy systems often isn't missing documentation. Sometimes it's the opposite, decades of thorough human-written reference is the wrong shape for a model to use, and reshaping it is the first piece of work, before any translation starts.
+hero: manual-an-ai-could-use.png
+menu:
+  sidebar:
+    name: Turning a Manual Into Something an AI Could Use
+    identifier: manual-an-ai-could-use
+    weight: 120
+tags: ["AI", "Legacy", "Enterprise"]
+categories: ["Engineering"]
+---
+
+Late last year, I spent a couple of days getting a manual into a shape an AI could use. The language it described wasn't new, and I wasn't changing it. It was for a legacy scripting language that had been running workflow and event logic for over a decade. It was also thoroughly documented: a 232-page technical guide, cataloguing a couple of hundred built-in functions, each with its parameters and an example. For once, the problem wasn't that nobody had written the rules down. The problem was that the 232 pages had been written for humans, and the thing that needed to read them this time was an AI.
+
+A reference manual that size is fine for a person. You open it at the one function you need, read that page, and leave the other 231 alone. A model doing a conversion doesn't work that way. Every time it reaches for the guide it pulls a great slab of the document into its context window, which crowds out whatever else it was holding and buries the one function that mattered among a couple of hundred that didn't, several of them near-identical, e.g. WarnIfXx and AbortIfXx, and a few more in the same family, and easy enough to mix up when they're sitting in a wall of text together. The manual was exhaustive and linear, which is close to the worst possible shape for something that has to consult it a function at a time, or try to get a sense of the language as a whole.
+
+So the couple of days didn't go on discovering the rules; it was spent producing a version the model could actually work from: far shorter, structured around the single job of translating each function into its modern equivalent, and organised so it could pull out exactly the piece it needed without dragging the rest of the document along with it. I generated that (of course with AI), over a few passes, breaking the job up as I went because the original Word document was big enough to exhaust a model's context on its own, which is the same problem one level up. I then reviewed and edited the result by hand, creating a conversion guide rather than a reference.
+
+You might wonder why not leave the 232 pages where they were and let the model look up what it needed as it went, the way a retrieval setup does. You can, but then the whole thing hangs on retrieval fetching the right passage every single time, and getting that reliable across a couple of hundred near-identical functions is a piece of work in itself. Once the guide was small enough to just hand over whole, that risk went away, or at least I never had to find out. The model keeps the entire thing in context and never has to go fishing for the right page, and I didn't take on a second problem (RAG) in order to solve the first.
+
+I suspect that gap, between documentation that exists and documentation a model can use, is going to catch a fair few organisations about to, or who already have, pointed AI at their old systems and processes. And it isn't always a shortage of documentation. Sometimes it's the opposite: decades of thorough, human-written reference can be worse for this than a thin guide, because there's simply more of it to wade through and more room to reach for the wrong thing, so having the manual turns out to be the easy part.
+
+I've [made a version of this point before](https://www.bizhub.com.au/the-quiet-advantage-in-ai-assisted-software-development/), about building software rather than migrating it. The less an AI has to invent, the more likely it is to get things right. This is the same idea from the other side: the less it has to wade through, the more reliably it uses what's there. In this context, structure and brevity are what make the material usable at all.
+
+You can see the edges of the same argument in the COBOL debate that ran earlier this year. [Anthropic put Claude Code forward](https://www.techzine.eu/news/devops/139038/anthropic-claude-accelerates-cobol-modernization-with-ai/) as a way to modernise old mainframe code, mapping dependencies and translating logic with a validation step, though I'm going off the reporting there rather than anything I've seen myself; [IBM answered without naming them](https://www.itpro.com/software/development/anthropic-says-claude-code-can-help-streamline-cost-prohibitive-cobol-modernization-but-ibm-says-its-not-that-simple-decades-of-hardware-software-integration-cannot-be-replicated-by-moving-code), fairly pointedly, arguing, roughly, that reading COBOL isn't the same as understanding it, and, in Rob Thomas's words, that "decades of hardware-software integration cannot be replicated by moving code". My take is that they're each right about their half. A model can read the code and the manuals fast; that part isn't hype, but someone still has to decide what matters, cut it down to something the model can hold, and check the result.
+
+So if you're planning to point AI at a legacy system, it's worth asking whether its documentation is in a shape a model could work from, or whether someone first has to turn what you've got into something usable. Usually it's the second one, and that's the first piece of work, before any translation starts. It's the unglamorous part; it rarely makes the business case, and it's where a fair bit of the real effort ends up going.
