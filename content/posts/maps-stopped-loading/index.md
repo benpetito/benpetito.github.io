@@ -27,12 +27,3 @@ Our platform has always allowed a paid tile provider, Google Maps, to be switche
 ![A Google map greyed out behind a "This page can't load Google Maps correctly" dialog, with "For development purposes only" stamped across the map](images/2026-11-03-google-maps-dev-watermark.webp)
 
 The free things tend to arrive one at a time, added by a developer on a busy afternoon for good reasons, and nobody goes back and counts them. It's worth knowing which ones you've embedded across how many systems, and what your users would see if one of them went away tomorrow (obligatory [xkcd reference](https://xkcd.com/2347/)). Going forward, supporting more alternative tile providers is probably the best solution, but there are only so many hours in the day. I'll get to it eventually…
-
----
-
-*Sources:*
-
-- [OSM Foundation Tile Usage Policy](https://operations.osmfoundation.org/policies/tiles/) - primary. Best-effort with no SLA, may change at any time, access may be blocked without prior notice (s7), browsers expected to send a valid Referer, no restrictive Referrer-Policy (s3.1). The page is undated; wording checked 11 Nov 2026.
-- The Referer expectation is long-standing: "a valid HTTP Referer" was already in the policy by 2018 ([QGIS developer list, Apr 2018](https://lists.osgeo.org/pipermail/qgis-developer/2018-April/053001.html)). Referer enforcement was tried and rolled back in 2025 ([OSM community forum](https://community.openstreetmap.org/t/technical-updates-to-the-tile-openstreetmap-org-service-openstreetmap-org-standard-layer/133421?page=3)), and blocking was widely reported through 2026 (e.g. [folium #2215](https://github.com/python-visualization/folium/issues/2215)). These are developer reports, and no official dated OSMF announcement was found, so treat the timing as directional.
-- [Simon Willison, "Release: datasette-referrer-policy 0.1" (5 May 2026)](https://simonwillison.net/2026/May/5/datasette-referrer-policy/) - an independent instance of the same block. His also involved a separate CAPTCHA bug.
-- [Build vs Buy Didn't Get Easier. The Bill Just Moved. (peti.to, 2 Jul 2026)](https://peti.to/posts/build-vs-buy-bill-moved/) - Ben's post.
